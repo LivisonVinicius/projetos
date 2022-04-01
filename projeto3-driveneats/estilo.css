@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+ion-icon {
+    display: none;
+}
 body{
     background-color: #eeeeee;
     width: 100%;
@@ -44,6 +47,8 @@ header p{
     overflow-x: scroll;
     width: 100%;
     margin-left: 19px;
+    margin-right: 50px;
+    box-sizing: border-box;
 }
 h3{
     font-family: 'Righteous';
@@ -101,6 +106,7 @@ h3{
     overflow-x: scroll;
     width: 100%;
     margin-left: 19px;
+    margin-right: 19px;
 }
 .Sobremesa{
     display: flex;
@@ -108,8 +114,9 @@ h3{
     width: 100%;
     margin-left: 19px;
     margin-bottom: 108px;
+    margin-right: 19px;
 }
-.Prato-Principal :last-child{
+/* .Prato-Principal :last-child{
     margin-right: 0px;
 }
 .Bebida :last-child{
@@ -117,7 +124,7 @@ h3{
 }
 .Sobremesa :last-child{
     margin-right: 0px;
-}
+} */
 footer{
     width: 100%;
     height: 92px;
@@ -147,3 +154,16 @@ footer div{
     flex-direction: column;
     color: #FFFFFF;
 }
+.Selecionada{
+    border: 5px solid #32B72F;
+    
+}
+.Selecionada .Inner-Box{
+    margin: 0px 10px;
+}
+/* .comidaSelecionada ion-icon{
+    display: initial;
+    color: #32B72F;
+    width: 19px;
+    height: 19px;
+} */
